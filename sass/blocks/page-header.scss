@@ -1,0 +1,102 @@
+.page-header {
+  display: block;
+  width: auto;
+
+  background-color: $darkblue;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: center 256px;
+  background-repeat: no-repeat;
+  background-size: 220%;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-back-mobile@2x.jpg");
+  }
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 21px;
+  padding-bottom: 23px;
+
+  background-color: $darkblue;
+
+  border-bottom: 1px solid darken($darkblue, 100%);
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-position: center 257px;
+    background-size: 181%;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+    }
+  }
+
+  .page-header__wrapper {
+    width: 660px;
+    padding-top: 27px;
+    padding-bottom: 39px;
+
+    background-color: transparent;
+  }
+
+  .page-header__bottom {
+    position: relative;
+
+    width: 660px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    background-position: center 0;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+    }
+  }
+
+  .page-header__container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .page-header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 169px;
+
+    background-color: transparent;
+    border: none;
+
+    &.container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .page-header__top {
+    position: relative;
+
+    width: auto;
+
+    background-color: $black-transparent;
+  }
+
+  .page-header__bottom {
+    width: 960px;
+  }
+}

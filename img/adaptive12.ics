@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:adaptive12
+X-APPLE-CALENDAR-COLOR:#303590
+X-OUTLOOK-COLOR:#303590
+X-FUNAMBOL-COLOR:#303590
+X-WR-CALNAME:Продвинутый HTML и CSS #12
+X-PUBLISHED-TTL:P1W
+BEGIN:VEVENT
+UID:59e03bad3adf1
+DTSTART;TZID=Europe/Moscow:20170918T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20170918T213000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 1. Вводн
+ ый
+CLASS:PUBLIC
+DESCRIPTION:Знакомимся с рабочим процессом на
+  интенсиве.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3aece
+DTSTART;TZID=Europe/Moscow:20170921T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20170921T213000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 2. Метод
+ ологии вёрстки
+CLASS:PUBLIC
+DESCRIPTION:Приёмы создания надёжной вёрстки.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3af53
+DTSTART;TZID=Europe/Moscow:20170925T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20170925T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 3. Препр
+ оцессоры и автоматизация
+CLASS:PUBLIC
+DESCRIPTION:Используем препроцессоры для вёрс
+ тки проектов.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3afd3
+DTSTART;TZID=Europe/Moscow:20170928T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20170928T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 4. Адапт
+ ивные сетки
+CLASS:PUBLIC
+DESCRIPTION:Создаём адаптивные сетки с исполь
+ зованием флексбоксов.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b050
+DTSTART;TZID=Europe/Moscow:20171002T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171002T213000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 5. Адапт
+ ивные декоративные элементы
+CLASS:PUBLIC
+DESCRIPTION:Делаем адаптивную вёрстку с резин
+ овыми сетками.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b0dc
+DTSTART;TZID=Europe/Moscow:20171005T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171005T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 6. Адапт
+ ивная графика
+CLASS:PUBLIC
+DESCRIPTION:Используем адаптивную и ретинову
+ ю графику в проекте.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b197
+DTSTART;TZID=Europe/Moscow:20171009T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171009T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 7. Векто
+ рная графика и оптимизация
+CLASS:PUBLIC
+DESCRIPTION:Разбираемся с векторной графикой 
+ и используем её по назначению.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b245
+DTSTART;TZID=Europe/Moscow:20171012T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171012T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 8. Погру
+ жение в автоматизацию
+CLASS:PUBLIC
+DESCRIPTION:Подготавливаем сборку проекта для
+  публикации.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b2f1
+DTSTART;TZID=Europe/Moscow:20171016T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171016T210000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 9. Произ
+ водительность вёрстки
+CLASS:PUBLIC
+DESCRIPTION:Оптимизируем «узкие места» проект
+ а.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:59e03bad3b38e
+DTSTART;TZID=Europe/Moscow:20171025T190000
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Moscow:20171025T200000
+URL:https://up.htmlacademy.ru/adaptive/12/live
+SUMMARY:Продвинутый HTML и CSS #12. Раздел 10. Фина
+ л
+CLASS:PUBLIC
+DESCRIPTION:Подведение итогов.
+DTSTAMP:20171013T070605Z
+END:VEVENT
+END:VCALENDAR

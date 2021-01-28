@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Пинк (form)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="page-header__container">
+          <div class="page-header__wrapper container">
+            <a class="page-header__logo">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/logo-pink-white-desktop.svg">
+                <source media="(min-width: 660px)" srcset="img/logo-pink-white-tablet.svg">
+                <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" alt="Логотип пинк">
+              </picture>
+            </a>
+
+            <button  class="main-nav__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+            </button>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item site-list__item--active">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="site-list__item">
+                <a href="photo.html">Фотографии</a>
+              </li>
+              <li class="site-list__item site-list__item--active">
+                <a>Конкурс</a>
+              </li>
+              <li class="site-list__item">
+                <a href="https://htmlacademy.ru">HTML Academy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <section class="advertising">
+        <h1 class="advertising__title advertising__title--form">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      </section>
+    </header>
+
+    <main class="page-main">
+      <section class="promo">
+        <h2 class="visually-hidden">Форма для участия в акции</h2>
+        <p class="promo__title promo__title--form">
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
+        </p>
+      </section>
+
+      <form class="form-block" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="field-set field-set--username container">
+          <legend class="visually-hidden">Заполните ФИО</legend>
+          <p class="field-set__item field-set__item--username">
+            <label class="field-set__lable field-set__lable--name" for="surname">Фамилия:</label>
+            <input  class="field-set__input field-set__input--text" type="text" name="surname-field" id="surname" placeholder="Укажите фамилию *">
+          </p>
+          <p class="field-set__item field-set__item--username">
+            <label class="field-set__lable field-set__lable--name" for="username">Имя:</label>
+            <input  class="field-set__input field-set__input--text" type="text" name="name-field" id="username" placeholder="Введите ваше имя *">
+          </p>
+          <p class="field-set__item field-set__item--username">
+            <label class="field-set__lable field-set__lable--name" for="patronymic">Отчество:</label>
+            <input  class="field-set__input field-set__input--text" type="text" name="patronymic-field" id="patronymic" placeholder="Ну и отчество тоже">
+          </p>
+        </fieldset>
+
+        <div class="field-set__wrapper">
+          <fieldset class="field-set container">
+            <legend class="field-set__heading">Ваши безбашенные достижения в путешествии</legend>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkbox-one" id="checkbox-one" checked>
+              <label class="field-set__lable field-set__lable--item" for="checkbox-one">Сделал селфи с акулой</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkbox-two" id="checkbox-two" checked>
+              <label class="field-set__lable field-set__lable--item" for="checkbox-two">Обгорел на пляже</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkboxt-three" id="checkbox-three">
+              <label class="field-set__lable field-set__lable--item" for="checkbox-three">Видел Чака Норриса</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkbox-four" id="checkbox-four">
+              <label class="field-set__lable field-set__lable--item" for="checkbox-four">Накупил сувениров</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkbox-five" id="checkbox-five" checked>
+              <label class="field-set__lable field-set__lable--item" for="checkbox-five">Удержал башню</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="checkbox" name="checkboxt-six" id="checkbox-six">
+              <label class="field-set__lable field-set__lable--item field-set__lable--last-field" for="checkbox-six">Разгромил отель</label>
+            </p>
+          </fieldset>
+        </div>
+
+        <fieldset class="field-set field-set--contacts container">
+          <legend class="field-set__heading field-set__heading--contacts">Контактная информация</legend>
+          <p class="field-set__item field-set__item--contacts">
+            <label class="field-set__lable field-set__lable--name
+            field-set__lable--contacts" for="phone">Номер телефона</label>
+            <input  class="field-set__input field-set__input--text field-set__input--contacts" type="text" name="phone-field" id="phone" placeholder="Номер, пожалуйста">
+          </p>
+          <p class="field-set__item field-set__item--contacts">
+            <label class="field-set__lable field-set__lable--name field-set__lable--contacts">Адрес почты</label>
+            <input  class="field-set__input field-set__input--text field-set__input--contacts" type="email" name="email-field" id="email" placeholder="Введите почту *">
+          </p>
+        </fieldset>
+
+        <div class="field-set__wrapper field-set__wrapper--apps">
+          <fieldset class="field-set container">
+            <legend class="field-set__heading field-set__heading--apps">С каким приложением путешествовали?</legend>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="radio" name="radio-field" id="ios" value="ios" checked>
+              <label class="field-set__lable field-set__lable--item field-set__lable--apps" for="ios">Pink для iOS</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="radio" name="radio-field" id="android" value="android">
+              <label class="field-set__lable field-set__lable--item field-set__lable--apps" for="android">Pink на Android</label>
+            </p>
+            <p class="field-set__item">
+              <input  class="visually-hidden" type="radio" name="radio-field" id="windows" value="windows">
+              <label class="field-set__lable field-set__lable--item field-set__lable--apps" for="windows">Windows Phone</label>
+            </p>
+          </fieldset>
+        </div>
+
+        <fieldset class="field-set field-set--textarea container">
+          <legend class="field-set__heading field-set__heading--textarea">Опишите свои эмоции</legend>
+          <textarea class="field-set__input field-set__input--text field-set__input--text-area" name="comment" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </fieldset>
+
+        <div class="field-set__btn container">
+          <button class="button button__submit--btn" type="button" name="button">Отправить форму</button>
+          <p class="postscript">
+            <sup class="postscript__notice">*</sup> — обязательные поля
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <footer class="page-footer container">
+      <a class="page-footer__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logo-pink-blue-desktop.svg">
+          <img src="img/logo-pink-blue-mobile.svg" alt="Логитип пинк">
+        </picture>
+      </a>
+
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="https://www.twitter.com/htmlacademy">
+              <span class="visually-hidden">Мы в Твиттере</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Мы в Фейсбуке</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Мы в Ютубе</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано</b>
+        <a class="copyright__link" href="https://htmlacademy.ru">
+          <span class="visually-hidden">HTML Academy</span>
+          </a>
+      </div>
+    </footer>
+  </body>
+</html>

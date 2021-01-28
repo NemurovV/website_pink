@@ -1,0 +1,34 @@
+.photos-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: auto;
+  padding-top: 40px;
+
+  border: 1px dotted rgb(255, 0, 0);
+}
+
+@media (min-width: $tablet-width) {
+  .photos-form {
+    display: flex;
+  }
+
+  .photos-form__wrapper {
+    display: flex;
+
+    width: 275px;
+    margin-bottom: 34px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photos-form {
+    padding-top: 16px;
+  }
+
+  .photos-form__wrapper {
+    width: 417px;
+    margin-bottom: 34px;
+  }
+}

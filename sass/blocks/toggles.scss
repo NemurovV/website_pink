@@ -1,0 +1,57 @@
+.toggles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 60px;
+  height: 16px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 40px;
+  padding-right: 4px;
+
+  text-align: center;
+}
+
+.toggles__button {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+
+  background-color: #bec2c7;
+  border: none;
+  border-radius: 50%;
+}
+
+.toggles__button--active {
+  top: 0;
+  left: 0;
+
+  width: 12px;
+  height: 12px;
+
+  background-color: #ffffff;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.toggles__tariff {
+  padding-bottom: 44px;
+}
+
+@media (min-width: $tablet-width) {
+  .toggles {
+    margin-top: 5px;
+    padding-bottom: 25px;
+  }
+
+  .toggles__tariff {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .toggles {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+
+.page-header__logo {
+  display: block;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__logo {
+    margin-top: -12px;
+  }
+}
